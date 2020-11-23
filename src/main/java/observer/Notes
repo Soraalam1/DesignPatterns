@@ -1,0 +1,21 @@
+When a subject has One to Many observers
+
+We are trying to decouple objects generally
+
+This pattern is used in Event Handling capabilities
+
+Publisher/Subscriber
+
+M-V-C where the view is event driven
+
+Examples:
+java.util.Observer
+java.util.EventListener
+java.jms.Topic
+
+The design is that of a subject that needs to be OBSERVED.
+
+The subject is usually an interface or abstract class that we make concrete typically.
+Subject implements Obervable interface.
+
+Pieces: Subject, Concrete Subject, Observer, Concrete Observer.

@@ -1,0 +1,15 @@
+With a builder we can:
+
+Handle complex constructors (with LOTS of parameters)
+Guarantee that the object is immutable (cannot be changed once built)
+
+Examples:
+StringBuilder
+DocumentBuilder
+LocaleBuilder
+
+Multiple constructors with each parameter variation is called a telescoping constructor
+
+Builders are typically written with  static inner class
+Calls the appropriate constructor
+Negates the need for exposed setters
